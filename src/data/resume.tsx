@@ -253,7 +253,7 @@ I’m Vishal Sharma, a Software Development Engineer passionate about building c
       href: "https://medical-bot-frontend-alpha.vercel.app/",
       dates: "Feb 2026 - Present",
       active: true,
-      description: ⁠ HealthMate is an AI-powered medical chatbot that provides users with clear, structured information about diseases, including causes, treatments, and prevention, making reliable medical knowledge easy to access and understand. ⁠,
+      description: "⁠ HealthMate is an AI-powered medical chatbot that provides users with clear, structured information about diseases, including causes, treatments, and prevention, making reliable medical knowledge easy to access and understand.",
       technologies: [
         "React",
         "Typescript",
