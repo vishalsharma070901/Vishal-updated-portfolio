@@ -1,4 +1,5 @@
 import { Icons } from "@/components/icons";
+import type { ReactNode } from "react";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 import { ReactLight } from "@/components/ui/svgs/reactLight";
 import { Typescript } from "@/components/ui/svgs/typescript";
@@ -34,6 +35,16 @@ import { Github } from "@/components/ui/svgs/github";
 import { Cursor } from "@/components/ui/svgs/cursor";
 import { GithubCopilot } from "@/components/ui/svgs/githubcopilot";
 import { Csharp } from "@/components/ui/svgs/csharp";
+
+type HackathonLink = { title: string; icon?: ReactNode; href: string };
+type Hackathon = {
+  title: string;
+  dates?: string;
+  location?: string;
+  description?: string;
+  image?: string;
+  links?: HackathonLink[];
+};
 
 export const DATA = {
   name: "Vishal Sharma",
@@ -147,7 +158,7 @@ I’m Vishal Sharma, a Software Development Engineer passionate about building c
       start: "May 2021",
       end: "Present",
       description: 
-      `Worked as a Software Engineer in Bengaluru, where I built a highly responsive frontend from scratch using React.js and Tailwind CSS, improving usability and reducing onboarding time by 30%. I developed and deployed scalable applications using AWS services like S3, CloudFront, Route 53, Lambda, and API Gateway, and automated CI/CD pipelines with Jenkins to improve release efficiency by 50%. I designed RESTful APIs and implemented testing strategies using Jest, React Testing Library, and Playwright, achieving over 95% test coverage and ensuring system reliability. I also worked with Kafka and Splunk for monitoring and validation, and built a production-ready conversational AI interface with React to enable intelligent, real-time insights.`, 
+      ⁠ Worked as a Software Engineer in Bengaluru, where I built a highly responsive frontend from scratch using React.js and Tailwind CSS, improving usability and reducing onboarding time by 30%. I developed and deployed scalable applications using AWS services like S3, CloudFront, Route 53, Lambda, and API Gateway, and automated CI/CD pipelines with Jenkins to improve release efficiency by 50%. I designed RESTful APIs and implemented testing strategies using Jest, React Testing Library, and Playwright, achieving over 95% test coverage and ensuring system reliability. I also worked with Kafka and Splunk for monitoring and validation, and built a production-ready conversational AI interface with React to enable intelligent, real-time insights. ⁠, 
     },
     // {
     //   company: "Shopify",
@@ -243,7 +254,7 @@ I’m Vishal Sharma, a Software Development Engineer passionate about building c
       href: "https://medical-bot-frontend-alpha.vercel.app/",
       dates: "Feb 2026 - Present",
       active: true,
-      description: `HealthMate is an AI-powered medical chatbot that provides users with clear, structured information about diseases, including causes, treatments, and prevention, making reliable medical knowledge easy to access and understand.`,
+      description: ⁠ HealthMate is an AI-powered medical chatbot that provides users with clear, structured information about diseases, including causes, treatments, and prevention, making reliable medical knowledge easy to access and understand. ⁠,
       technologies: [
         "React",
         "Typescript",
@@ -366,7 +377,7 @@ I’m Vishal Sharma, a Software Development Engineer passionate about building c
         // "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
   ],
-  hackathons: [],
+  hackathons: [] as Hackathon[],
   // [
   //   {
   //     title: "Hack Western 5",
