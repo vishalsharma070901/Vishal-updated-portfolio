@@ -157,8 +157,7 @@ I’m Vishal Sharma, a Software Development Engineer passionate about building c
       logoUrl: "/ADSK.png",
       start: "May 2021",
       end: "Present",
-      description: 
-      ⁠ Worked as a Software Engineer in Bengaluru, where I built a highly responsive frontend from scratch using React.js and Tailwind CSS, improving usability and reducing onboarding time by 30%. I developed and deployed scalable applications using AWS services like S3, CloudFront, Route 53, Lambda, and API Gateway, and automated CI/CD pipelines with Jenkins to improve release efficiency by 50%. I designed RESTful APIs and implemented testing strategies using Jest, React Testing Library, and Playwright, achieving over 95% test coverage and ensuring system reliability. I also worked with Kafka and Splunk for monitoring and validation, and built a production-ready conversational AI interface with React to enable intelligent, real-time insights. ⁠, 
+      description:  `Worked as a Software Engineer in Bengaluru, where I built a highly responsive frontend from scratch using React.js and Tailwind CSS, improving usability and reducing onboarding time by 30%. I developed and deployed scalable applications using AWS services like S3, CloudFront, Route 53, Lambda, and API Gateway, and automated CI/CD pipelines with Jenkins to improve release efficiency by 50%. I designed RESTful APIs and implemented testing strategies using Jest, React Testing Library, and Playwright, achieving over 95% test coverage and ensuring system reliability. I also worked with Kafka and Splunk for monitoring and validation, and built a production-ready conversational AI interface with React to enable intelligent, real-time insights. ⁠`, 
     },
     // {
     //   company: "Shopify",
